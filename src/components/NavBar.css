@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'DM Sans'; /* Name your custom font family */
+    src: url('../../public/DMSans_18pt-Regular.ttf') format('ttf');
+  }
+  .logo {
+    text-decoration: none;
+    font-size: xl;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
+  }
+  
+  .logo:hover {
+    transform: scale(1.1); /* Scale up when hovered */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  body{
+    font-family: 'DM Sans';
+  }
+  .sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.18); /* Adjust the background color and opacity as needed */
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+  }
+  
+  

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Poppins'; /* Name your custom font family */
+    src: url('../../public/Poppins-Regular.ttf') format('ttf');
+  }
+  /* Login.css */
+  .glassmorphism-container {
+    width: 470px;
+    height: 560px; /* Adjust the width as needed */
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.2)); /* Diagonal linear gradient */
+    border-radius: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced box shadow */
+    padding: 20px;
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+  }
+  .glassmorphism-container:hover{
+    transform: scale(1.03);
+    transition: ease-in;
+    transition-duration: 0.3s;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-10%);
+      opacity: 0%;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 100%;
+    }
+  }
+  @keyframes slideIn1 {
+    from {
+      transform: translateX(10%);
+      opacity: 0%;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 100%;
+    }
+  }
+  
+  .orb {
+    animation-name: slideIn;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+  }
+  .orb:hover{
+    transform: scale(1.03);
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+  }
+  .orb1 {
+    animation-name: slideIn1;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+  }
+  
+    
+    .glassmorphism-container form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .glassmorphism-container input,
+    .glassmorphism-container button {
+      width: 400px;
+      margin-top: 10px;
+    }
+    
+    .login-button:hover {
+      background-color: #f6b766;
+    }
+    
+    .error-message {
+      color: red;
+      margin-top: 10px;
+    }
+    .screen{
+      height: 100vh;
+    }
+    
+    label{
+      color: white;
+    }
+    .Logintext{
+      color: white;
+      font-size: 35px;
+    }
+    .loginbutton{
+      background-color: (to right, #ff0000, #0000ff);
+      border-radius: 50px;
+    }
+    .signuptext{
+      color: #007AFF;
+    }
+    body{
+      font-family: 'Poppins';
+      overflow: hidden;
+    }
+    .tags{
+      font-size: 21px;
+    }
+    /* Dark mode scrollbar with sleek edges */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; /* Dark background color for the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Dark color for the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #474747; /* Dark color for the scrollbar thumb on hover */
+  }

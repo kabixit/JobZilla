@@ -1,0 +1,10 @@
+version: '3'
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    # Add environment variables if needed
+    environment:
+      - REACT_APP_API_KEY=AIzaSyA_n54KYpXAsudDyQTELVJOOklYSjmYE0s
+      # Add other environment variables as needed
