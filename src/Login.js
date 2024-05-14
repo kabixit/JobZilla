@@ -118,7 +118,7 @@ const Login = () => {
   >
     Login
   </Button>
-    <Image src='or.png' width='350px' height='22px' margin='auto' mt='20px'></Image>
+    <Image src='Or.png' width='350px' height='22px' margin='auto' mt='20px'></Image>
 
             <Button
     variant="solid"
